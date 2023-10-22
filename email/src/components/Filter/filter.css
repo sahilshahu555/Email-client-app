@@ -1,0 +1,22 @@
+.filterContainer{
+display: flex;
+align-items: center;
+gap: 20px;
+
+}
+p{
+    margin-left: 30px;
+    font-weight: 500;
+}
+button{
+    border: none;
+   padding: 10px;
+    color:#636363;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+button:hover{
+    background-color:#E1E4EA ;
+}

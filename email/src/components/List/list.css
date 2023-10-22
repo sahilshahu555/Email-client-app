@@ -1,0 +1,22 @@
+.list{
+    display: flex;
+    width: 90vw;
+    gap: 10px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.logo{
+    background-color: #E54065;
+    padding: 25px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+   
+}
+span{
+    font-weight: 700;
+}
