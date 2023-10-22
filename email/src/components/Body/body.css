@@ -1,3 +1,27 @@
 .body{
    width: 100%;
+   background-color: white;
+   display: flex;
+   margin-left: 50px;
+}
+.logo1{
+    background-color: #E54065;
+    padding: 25px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+   
+}
+.name-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name-btn >button{
+    background-color: #E54065;
+     color: white;
+     border-radius: 15px;
+     padding: 10px;
 }

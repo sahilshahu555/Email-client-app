@@ -1,12 +1,15 @@
 import React from 'react'
 import "./filter.css"
-const Filter = () => {
+import { useSelector } from 'react-redux';
+const Filter = ({setData}) => {
+  let favData=useSelector((store)=>store.favItems);
+
   return (
     <div className='filterContainer'>
       <p >Filter By : </p>
       <button>Unread</button>
       <button>Read</button>
-      <button>Favorites</button>
+      <button  onClick={()=>{setData(favData) }} >Favorites</button>
     </div>
   )
 }
